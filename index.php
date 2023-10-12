@@ -10,24 +10,23 @@
 <body>
 
 
-    <header>
+    <header class = "cabecera">
         <h1 class = "titulo">ubuntu_server</h1>
         <h2 class = "titulo_pequeño">serversito</h2>
+    
+        <nav class = "nav_menu">
+            <ul class = "nav_lista">
+                <li><a href = "#lenguajes">tecnologias</a></li>
+                <li><a href = "#algoritmos">algoritmos</a></li>
+                <li><a href = "#desafios">ejercicios</a></li>
+                <li><a href = "#libros">libros destacables</a></li>
+            </ul>
+            <form class = "nav_busqueda">
+                <input type = "search" name = "busqueda_usuario" placehorder = "Busca en la web"/>
+                <input type = "submit" value = "Busca"/>
+            </form>
+        </nav>
     </header>
-
-
-    <nav class = "nav_menu">
-        <ul class = "nav_lista">
-            <li><a href = "#lenguajes">tecnologias</a></li>
-            <li><a href = "#algoritmos">algoritmos</a></li>
-            <li><a href = "#desafios">ejercicios</a></li>
-            <li><a href = "#libros">libros destacables</a></li>
-        </ul>
-        <form class = "nav_busqueda">
-            <input type = "search" name = "busqueda_usuario" placehorder = "Busca en la web"/>
-            <input type = "submit" value = "Busca"/>
-        </form>
-    </nav>
 
     <main>
 

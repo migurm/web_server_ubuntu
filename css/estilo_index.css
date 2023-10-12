@@ -1,10 +1,18 @@
+.cabecera{
+    background-image: url('../imagenes/panoramica_programacion.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
 .titulo,
 .titulo_pequeño {
+    padding: 1%;
     text-align: center;
+    color: rgb(136, 160, 47);
 }
 ul.nav_lista a {
     text-decoration: none;
-    color: rgb(76, 248, 153);
+    color: rgb(56, 175, 109);
 }
 .nav_menu {
     display: flex;
@@ -20,7 +28,7 @@ ul.nav_lista a {
 
 
 body {
-    background-color: rgb(69, 70, 77);
+    background-color: rgb(48, 48, 100);
     color: black;
 }
 
