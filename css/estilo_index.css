@@ -1,0 +1,45 @@
+.titulo,
+.titulo_pequeño {
+    text-align: center;
+}
+ul.nav_lista a {
+    text-decoration: none;
+    color: rgb(76, 248, 153);
+}
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /*Si los elementos no caben, usan la linea de abajo*/
+}
+
+.nav_lista,
+.nav_busqueda  {
+    display: flex;
+    align-items: center;
+}
+
+
+body {
+    background-color: rgb(69, 70, 77);
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .nav_menu {
+      flex-direction: column; /* En pantallas más pequeñas, apila los elementos uno encima del otro */
+    }
+    .nav_lista,
+    .nav_busqueda {
+      margin-right: 0; /* Elimina el margen entre los elementos cuando se apilan */
+    }
+}
+@media screen and (min-width: 1001px) { /*Estaría bien poner que cuando se separa 1200 mas aun, o progresivo con Js*/
+    .nav_lista li {
+      margin-right: 30%; /* Aumenta el espacio entre los elementos de la lista en pantallas más grandes */
+    }
+  }
+  @media screen and (max-width: 1000px) {
+    .nav_lista li {
+      margin-right: 10%; /* Aumenta el espacio entre los elementos de la lista en pantallas más grandes */
+    }
+  }
