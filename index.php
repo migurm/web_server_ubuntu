@@ -8,8 +8,25 @@
     <?php require "./paginas/libreria_funciones.php"?>
 </head>
 <body>
-    <h1>Hola amigos de php</h1>
+    <h1>serversito</h1>
+    <h3>ubuntu server</h3>
     <?php saludo() ?>
+    <button onclick = imagenSorpresa()>fotito</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script type = "text/javascript" src = "js/funciones.js"></script>
 </body>
 </html>
