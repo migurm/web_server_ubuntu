@@ -26,12 +26,6 @@ ul.nav_lista a {
     align-items: center;
 }
 
-
-body {
-    background-color: rgb(48, 48, 100);
-    color: black;
-}
-
 @media screen and (max-width: 600px) {
     .nav_menu {
       flex-direction: column; /* En pantallas más pequeñas, apila los elementos uno encima del otro */
